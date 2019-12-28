@@ -3,9 +3,6 @@
 [ext_resource path="res://game/Player.gd" type="Script" id=1]
 [ext_resource path="res://game/player.png" type="Texture" id=2]
 
-
-
-
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 31.8585, 32.1781 )
 
@@ -18,11 +15,9 @@ jump_speed = 1700
 gravity = 90
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 287.902, 143.197 )
 texture = ExtResource( 2 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 287.902, 143.197 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
